@@ -17,10 +17,10 @@ function BusinessCard({ name, jobTitle, email, phone, website, profilePic }) {
           <p>Phone: {phone}</p>
           <p>Website: {website}</p>
           <div className="social-media">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kelvin-m-747561315/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kevkaleido" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
@@ -29,8 +29,8 @@ function BusinessCard({ name, jobTitle, email, phone, website, profilePic }) {
           </div>
         </div>
         <div className="card-back">
-          <h2>More Info</h2>
-          <p>Additional information goes here.</p>
+          <h2>About Me</h2>
+          <p>I have an innate desire to create meaningful and impactful digital experiences. I believe in the power of the web to connect people, share knowledge, and create opportunities. This belief drives me to continuously learn and improve, ensuring that I can bring the best solutions to the table for every project I undertake..</p>
         </div>
       </div>
       <button className="flip-button" onClick={() => setIsFlipped(!isFlipped)}>

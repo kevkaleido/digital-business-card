@@ -59,7 +59,7 @@
 }
 
 .social-media {
-  margin-top: 16px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -75,18 +75,17 @@
   color: #ff1818;
 }
 
+
 .business-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.profile-pic:hover {
-  border: 2px solid #ff1818;
-}
+
 
 .App.dark-mode .business-card {
   background-color: #444;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .flip-button {
