@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import BusinessCard from './BusinessCard';
+import profilePic from './profile-pic.jpg';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const cardData = {
+    name: "Kelvin Mba",
+    jobTitle: "Web Developer",
+    email: "kelvinkalumba189@gmail.com",
+    phone: "2348108384674",
+    website: "",
+    profilePic: profilePic
+  };
+
   return (
-    <div className="App">
+    <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>My Digital Business Card</h1>
+        <button onClick={() => setDarkMode(!darkMode)}>
+          Toggle {darkMode ? 'Light' : 'Dark'} Mode
+        </button>
       </header>
+      <BusinessCard {...cardData} />
     </div>
   );
 }
