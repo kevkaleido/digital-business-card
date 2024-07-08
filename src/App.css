@@ -12,7 +12,7 @@ body {
 
 .App {
   text-align: center;
-  background-color: #ecf0f1;
+  background-color: #e6e9ea;
   color: #34495e;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
 .App.dark-mode {
   background-color: #2c3e50;
   color: #2c3e50;
-}
+  }
 
 .App-header {
   margin-bottom: 20px;
@@ -79,11 +79,10 @@ button:disabled {
   .App-header {
     font-size: 1.2em;
     padding:15px;
-    
   }
 
   button {
-    padding: 1px;
+    padding: 10px;
   
   }
 }
