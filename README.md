@@ -1,33 +1,4 @@
-A React-based digital business card application.
-Structure
-
-java
-
-digital-business-card-main/
-├── .gitignore
-├── README.md
-├── package-lock.json
-├── package.json
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-└── src/
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── BusinessCard.css
-    ├── BusinessCard.js
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
-    ├── profile-pic.jpg
-    ├── reportWebVitals.js
-    └── setupTests.js
-
+ 
 Getting Started
 
     Clone the repository:
